@@ -1,2 +1,2 @@
 # jsp-multilingual-application
-Build a Multilingual app using Internationalization and JSTL.
+Build a Multilingual application using Internationalization and JSTL.
