@@ -30,26 +30,56 @@
 
 <html>
 <body>
+
+	<div align="center">
+		<a href="a-i18n-messages.jsp?myLocale=en_US">English (US)</a>
+		|
+		<a href="a-i18n-messages.jsp?myLocale=fr_FR">French (FR)</a>
+		|
+		<a href="a-i18n-messages.jsp?myLocale=es_ES">Spanish (ES)</a>
+		|
+		<a href="a-i18n-messages.jsp?myLocale=de_DE">German (DE)</a>
+		|
+		<a href="a-i18n-messages.jsp?myLocale=it_IT">Italian (IT)</a>
+	</div>
 	
-	<a href="a-i18n-messages.jsp?myLocale=en_US">English (US)</a>
-	|
-	<a href="a-i18n-messages.jsp?myLocale=fr_FR">French (FR)</a>
-	|
-	<a href="a-i18n-messages.jsp?myLocale=es_ES">Spanish (ES)</a>
-	|
-	<a href="a-i18n-messages.jsp?myLocale=de_DE">German (DE)</a>
-	|
-	<a href="a-i18n-messages.jsp?myLocale=it_IT">Italian (IT)</a>
+	<hr><br/>
 	
-	<hr>
+	<table border="1">
 	
-	<!-- Retrieves the message value by the specified bundle key. -->
-	<fmt:message key="label.greeting" /> <br/>
-	<fmt:message key="label.firstname"/> John <br/>
-	<fmt:message key="label.lastname"/> Doe <br/>
-	<fmt:message key="label.welcome"/> <br/>
+		<tr>
+			<th><fmt:message key="label.matrix" /></th>
+			<th><fmt:message key="label.mario" /></th>
+			<th><fmt:message key="label.guardians" /></th>
+		</tr>
+		
+		<tr>
+			<th><img src="<c:url value="/resources/img/matrix4.jpg" />" /></th>
+			<th><img src="<c:url value="/resources/img/mario.jpg" />" /></th>
+			<th><img src="<c:url value="/resources/img/gardien.jpeg" />" /></th>
+		</tr>
+
+		<tr>
+			<th> <!-- Retrieves the message value by the specified bundle key. -->
+				<fmt:message key="label.synopsis" /> <br/><br/>
+				<fmt:message key="label.rating"/> <br/><br/>
+				<fmt:message key="label.year"/> <br/>
+			</th>
+			
+			<th> <!-- Retrieves the message value by the specified bundle key. -->
+				<fmt:message key="label.mario.synopsis" /> <br/><br/>
+				<fmt:message key="label.mario.rating"/> <br/><br/>
+				<fmt:message key="label.mario.year"/> <br/>
+			</th>
+			
+			<th> <!-- Retrieves the message value by the specified bundle key. -->
+				<fmt:message key="label.guardians.synopsis" /> <br/><br/>
+				<fmt:message key="label.guardians.rating"/> <br/><br/>
+				<fmt:message key="label.guardians.year"/> <br/>
+			</th>
+		</tr>
 	
-	<hr>
+	</table>
 	
 	Selected locale: ${myLocale}
 												
