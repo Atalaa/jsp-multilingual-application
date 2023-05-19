@@ -38,6 +38,8 @@
 	<a href="a-i18n-messages.jsp?myLocale=es_ES">Spanish (ES)</a>
 	|
 	<a href="a-i18n-messages.jsp?myLocale=de_DE">German (DE)</a>
+	|
+	<a href="a-i18n-messages.jsp?myLocale=it_IT">Italian (IT)</a>
 	
 	<hr>
 	
