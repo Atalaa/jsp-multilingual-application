@@ -32,15 +32,15 @@
 <body>
 
 	<div align="center">
-		<a href="a-i18n-messages.jsp?myLocale=en_US">English (US)</a>
+		<a href="index.jsp?myLocale=en_US">English (US)</a>
 		|
-		<a href="a-i18n-messages.jsp?myLocale=fr_FR">French (FR)</a>
+		<a href="index.jsp?myLocale=fr_FR">French (FR)</a>
 		|
-		<a href="a-i18n-messages.jsp?myLocale=es_ES">Spanish (ES)</a>
+		<a href="index.jsp?myLocale=es_ES">Spanish (ES)</a>
 		|
-		<a href="a-i18n-messages.jsp?myLocale=de_DE">German (DE)</a>
+		<a href="index.jsp?myLocale=de_DE">German (DE)</a>
 		|
-		<a href="a-i18n-messages.jsp?myLocale=it_IT">Italian (IT)</a>
+		<a href="index.jsp?myLocale=it_IT">Italian (IT)</a>
 	</div>
 	
 	<hr><br/>
