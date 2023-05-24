@@ -59,8 +59,8 @@
 			<th><img src="<c:url value="/resources/img/gardien.jpeg" />" /></th>
 		</tr>
 
-		<tr>
-			<th> <!-- Retrieves the message value by the specified bundle key. -->
+		<tr style="text-align:left; font-style: italic; font-family:Helvetica, sans-serif; color: indigo">
+			<th style="margin:50px;"> <!-- Retrieves the message value by the specified bundle key. -->
 				<fmt:message key="label.synopsis" /> <br/><br/>
 				<fmt:message key="label.rating"/> <br/><br/>
 				<fmt:message key="label.year"/> <br/>
