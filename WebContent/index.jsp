@@ -31,7 +31,7 @@
 <html>
 <body>
 
-	<div align="center">
+	<div align="center" style="font-weight: bold;">
 		<a href="index.jsp?myLocale=en_US">English (US)</a>
 		|
 		<a href="index.jsp?myLocale=fr_FR">French (FR)</a>
